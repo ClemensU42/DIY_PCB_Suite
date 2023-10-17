@@ -1,3 +1,6 @@
+pub mod io;
+pub mod ui;
+
 fn main() {
-    println!("Hello, world!");
+    dioxus_desktop::launch(ui::app::app);
 }
